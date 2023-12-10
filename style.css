@@ -38,6 +38,7 @@ input{
 }
 input::placeholder{
     color: white;
+    border-radius: 15px;
 }
 button{
     border: none;
@@ -50,4 +51,11 @@ button{
     background: transparent;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.09);
     cursor: pointer;
+}
+
+.equalclass{
+    background-color: chocolate;
+}
+.operator{
+    color: green;
 }
